@@ -1,0 +1,8 @@
+File Handling Algorithm-7
+
+1.Save the code as a .java file on your computer.
+2.Create a text file (e.g., input.txt) with some content.
+3.Open a command line terminal.
+4.Navigate to the directory where the .java file and input.txt file are located.
+5.Compile the Java program using the command: javac filehandling.java
+6.Run the compiled program using the command: java filehandling.java
