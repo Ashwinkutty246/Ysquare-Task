@@ -1,0 +1,21 @@
+Data Comparision Algorithm-9
+
+1.Define a method readEmailsFromFile to read emails from a text file and store them in a HashSet.
+
+2. Read emails from both files using the (BufferedReader reader = new BufferedReader(new FileReader("file2.txt"))) method.
+
+3. Print emails present in both files using the printCommonEmails method.
+ HashSet<String> commonEmails = new HashSet<>(emailsFile1);
+
+4. Print emails present in file1 but not in file2 using the printUniqueEmails method.
+HashSet<String> uniqueToFirst = new HashSet<>(emailsFile1);
+
+5. Print emails present in file2 but not in file1 using the printUniqueEmails method.
+HashSet<String> uniqueToSecond = new HashSet<>(emailsFile2);
+
+6. Print all unique emails present in both files by calling printUniqueEmails for both sets.
+HashSet<String> allUniqueEmails = new HashSet<>(emailsFile1);
+
+7.The printCommonEmails method prints emails that are present in both sets.
+
+8.The printUniqueEmails method prints emails that are present in the first set but not in the second set.

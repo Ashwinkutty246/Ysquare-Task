@@ -1,0 +1,16 @@
+Date Comparison Algorithm-8
+
+1.Read the two dates from the user, usually in the format "YYYY-MM-DD".
+
+2.DateTimeFormat format = DateTimeFormat.ofPattern("dd-MM-yyyy HH:mm");
+
+3.Calculate the difference between the two dates using the Period class.
+
+4.Calculates the differences in years, months, weeks, days, and minutes 
+between the entered date-time and the current date-time.
+
+5.Save the code as a .java file on your computer.
+
+6.Compile the Java program using the command: javac datediff.java
+
+7.Run the compiled program using the command: java datediff.java
